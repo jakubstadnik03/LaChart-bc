@@ -26,9 +26,9 @@ const userListRoute = require("./routes/userListRoute");
 const graphsRoute = require("./routes/graphsRoute");
 
 // Routes Middleware
-// app.use("/athletes", athletesRoutes);
-// app.use("/tests", testsRoutes);
-// app.use("/graphs", graphsRoute);
+app.use("/athletes", athletesRoutes);
+app.use("/tests", testsRoutes);
+app.use("/graphs", graphsRoute);
 app.use("/user", userListRoute);
 
 // Base Route
